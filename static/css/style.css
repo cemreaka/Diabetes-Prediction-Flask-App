@@ -1,0 +1,58 @@
+body {
+  background: url("diabete_picture.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 18px;
+  padding: 1px;
+  text-align: center;
+  color: #2057ee;
+}
+
+.diabeteform {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #FFFFFF;
+  opacity: 0.97;
+  padding: 12px 45px 12px 45px;
+  position: relative;
+  max-width: 260px;
+  margin: 50px auto 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.diabeteform input {
+  outline: 0;
+  border-radius: 10px;
+  background: #F2F2F2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 14px;
+  padding: 14px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+.diabeteform input:hover {
+  background-color: #D3F8F9;
+  transition: all;
+}
+
+.diabeteform input:focus {
+  background-color: #D3F8F9;
+  transition: all;
+}
+
+.diabeteform button {
+  outline: 0;
+  border-radius: 10px;
+  background: #2057ee;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  font-size: 14px;
+  cursor: pointer;
+}
