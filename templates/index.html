@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Diabetes Prediction API</title>
+    <title>Diabetes Prediction ML API</title>
     <link rel="stylesheet" href="static\style.css">
 </head>
 
 <body>
     <div class="diabeteform">
-        <h1>Diabetes Prediction</h1>
+        <h1>Pima Indians Diabetes Prediction for Women</h1>
         <form action="{{ url_for ('predict')}}" method="post">
             <input type="text" name="Pregnancies" placeholder="Number Of Times Pregnant" required="required" />
             <input type="text" name="Glucose" placeholder="Glucose" required="required" />
@@ -23,7 +23,7 @@
             <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
         </form>
         <br>
-        {{prediction_text}}
+        <h4>{{prediction_text}}</h4>
     </div>
 </body>
 
