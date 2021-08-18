@@ -1,5 +1,5 @@
 # Diabetes-Prediction-Flask-App
-https://diabetes-prediction-flask-app.herokuapp.com/
+https://diabetes-prediction-flask.herokuapp.com/
 
 This project aims to predict Pima Indians women diabetes by using a machine learning model.
 The application diagnostically predict whether a patient has high risk of diabetes, based on
