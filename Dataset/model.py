@@ -3,8 +3,7 @@ import pickle
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
-DiabetesPrediction = p.read_csv(
-    'C:\\Users\\cemre\\Documents\\repos\\Diabetes-Prediction-Flask-App\\Dataset\\diabetes.csv')
+DiabetesPrediction = p.read_csv('diabetes.csv')
 
 X = DiabetesPrediction[['Pregnancies', 'Glucose', 'BloodPressure',
                         'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']]

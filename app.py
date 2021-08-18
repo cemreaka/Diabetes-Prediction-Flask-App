@@ -3,8 +3,7 @@ import pickle
 import numpy as n
 
 app = Flask(__name__)
-model = pickle.load(open(
-    'C:\\Users\\cemre\\Documents\\repos\\Diabetes-Prediction-Flask-App\\model.pickle', 'rb'))
+model = pickle.load(open('model.pickle', 'rb'))
 
 
 @app.route('/')
